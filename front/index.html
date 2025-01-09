@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subjects Page</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <h1>Список доступных предметов</h1>
+
+  <div id="subjectsList">
+  </div>
+
+  <br>
+  <br>
+
+
+  <table id="lecturesList"></table>
+
+
+  <br>
+  <br>
+
+  <table id="practicesList"></table>
+
+  <br>
+  <br>
+
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th style="background-color: #8ad374cc"></th> 
+          <th id="1">Monday</th>
+          <th id="2">Tuesday</th>
+          <th id="3">Wednesday</th>
+          <th id="4">Thursday</th>
+          <th id="5">Friday</th>
+          <th id="6">Saturday</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr id="9">
+          <td>8:30 - 9:20</td>
+          <td id="1-9"></td>
+          <td id="2-9"></td>
+          <td id="3-9"></td>
+          <td id="4-9"></td>
+          <td id="5-9"></td>
+          <td id="6-9"></td>
+        </tr>
+        <tr id="10">
+          <td>9:30 - 10:20</td>
+          <td id="1-10"></td>
+          <td id="2-10"></td>
+          <td id="3-10"></td>
+          <td id="4-10"></td>
+          <td id="5-10"></td>
+          <td id="6-10"></td>
+        </tr>
+        <tr id="11">
+            <td>10:30 - 11:20</td>
+            <td id="1-11"></td>
+            <td id="2-11"></td>
+            <td id="3-11"></td>
+            <td id="4-11"></td>
+            <td id="5-11"></td>
+            <td id="6-11"></td>
+          </tr>
+          <tr id="12">
+            <td>11:30 - 12:20</td>
+            <td id="1-12"></td>
+            <td id="2-12"></td>
+            <td id="3-12"></td>
+            <td id="4-12"></td>
+            <td id="5-12"></td>
+            <td id="6-12"></td>
+          </tr>
+          <tr id="10">
+            <td>12:30 - 13:20</td>
+            <td id="1-13"></td>
+            <td id="2-13"></td>
+            <td id="3-13"></td>
+            <td id="4-13"></td>
+            <td id="5-13"></td>
+            <td id="6-13"></td>
+          </tr>
+          <tr id="10">
+            <td>13:30 - 14:20</td>
+            <td id="1-14"></td>
+            <td id="2-14"></td>
+            <td id="3-14"></td>
+            <td id="4-14"></td>
+            <td id="5-14"></td>
+            <td id="6-14"></td>
+          </tr>
+          <tr id="10">
+            <td>14:30 - 15:20</td>
+            <td id="1-15"></td>
+            <td id="2-15"></td>
+            <td id="3-15"></td>
+            <td id="4-15"></td>
+            <td id="5-15"></td>
+            <td id="6-15"></td>
+          </tr>
+          <tr id="10">
+            <td>15:30 - 16:20</td>
+            <td id="1-16"></td>
+            <td id="2-16"></td>
+            <td id="3-16"></td>
+            <td id="4-16"></td>
+            <td id="5-16"></td>
+            <td id="6-16"></td>
+          </tr>
+          <tr id="10">
+            <td>16:30 - 17:20</td>
+            <td id="1-17"></td>
+            <td id="2-17"></td>
+            <td id="3-17"></td>
+            <td id="4-17"></td>
+            <td id="5-17"></td>
+            <td id="6-17"></td>
+          </tr>
+          <tr id="10">
+            <td>17:30 - 18:20</td>
+            <td id="1-18"></td>
+            <td id="2-18"></td>
+            <td id="3-18"></td>
+            <td id="4-18"></td>
+            <td id="5-18"></td>
+            <td id="6-18"></td>
+          </tr>
+          <tr id="10">
+            <td>18:30 - 19:20</td>
+            <td id="1-19"></td>
+            <td id="2-19"></td>
+            <td id="3-19"></td>
+            <td id="4-19"></td>
+            <td id="5-19"></td>
+            <td id="6-19"></td>
+          </tr>
+          <tr id="10">
+            <td>19:30 - 20:20</td>
+            <td id="1-20"></td>
+            <td id="2-20"></td>
+            <td id="3-20"></td>
+            <td id="4-20"></td>
+            <td id="5-20"></td>
+            <td id="6-20"></td>
+          </tr>
+          <tr id="10">
+            <td>20:30 - 21:20</td>
+            <td id="1-21"></td>
+            <td id="2-21"></td>
+            <td id="3-21"></td>
+            <td id="4-21"></td>
+            <td id="5-21"></td>
+            <td id="6-21"></td>
+          </tr>
+
+
+        <tr id="22">
+          <td>21:30 - 22:20</td>
+          <td id="1-22"></td>
+          <td id="2-22"></td>
+          <td id="3-22"></td>
+          <td id="4-22"></td>
+          <td id="5-22"></td>
+          <td id="6-22"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <br>
+  <button style="display: none;" id="addButton" onclick="addToBasket()">Добавить в корзину</button>
+
+
+  <h3>Добавленные предметы:</h3>
+  <ul id="basket"></ul>
+
+  <script src="main.js"></script>
+  
+  
+  
+
+</body>
+</html>

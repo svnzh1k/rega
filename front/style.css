@@ -1,0 +1,226 @@
+body {
+  padding: 1%;
+  font-family: 'Arial', sans-serif;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+h1, h3 {
+  text-align: center;
+  color: #333;
+}
+
+/* General styling for tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 6px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Subject buttons and lists */
+#subjectsList button {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 3px;
+  font-size: 12px;
+  text-align: left;
+}
+
+/* Lectures and Practices lists */
+#lecturesList, #practicesList {
+  width: 100%;
+}
+
+#lecturesList th, #practicesList th {
+  background-color: #8ad374cc;
+  color: #fff;
+  font-size: 12px;
+  padding: 6px;
+}
+
+#lecturesList td, #practicesList td {
+  padding: 6px;
+}
+
+/* Weekly schedule table */
+div table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+div table th {
+  background-color: #8ad374cc;
+  color: #fff;
+  font-size: 12px;
+  padding: 6px;
+}
+
+div table td {
+  padding: 6px;
+  text-align: center;
+}
+
+div table:last-child th,
+div table:last-child td {
+  font-size: 10px;
+}
+
+div table tr {
+  height: 30px;
+}
+
+div table td div {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 10px;
+}
+
+/* Add to basket button */
+#addButton {
+  display: none;
+  width: 100%;
+  padding: 6px;
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+/* Basket list */
+#basket {
+  list-style-type: none;
+  padding: 0;
+}
+
+#basket li {
+  padding: 5px;
+  font-size: 12px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+#basket li button {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  font-size: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #8ad374cc;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 2%;
+  }
+
+  button, #addButton {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Original CSS styles */
+
+/* ... (Your existing styles) ... */
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  h1, h3 {
+    text-align: left;
+  }
+
+  table {
+    font-size: 10px;
+  }
+
+  th, td {
+    padding: 4px;
+  }
+
+  #addButton {
+    display: block;
+  }
+
+  #basket li button {
+    right: 0;
+  }
+
+  div table tr {
+    height: 20px;
+  }
+
+  div table td div {
+    font-size: 8px;
+  }
+
+
+  div table:last-child th, div table:last-child td {
+    font-size: 6px;
+}
+
+div table td div {
+    font-size: 6px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
